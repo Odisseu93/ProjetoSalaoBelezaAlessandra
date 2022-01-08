@@ -1,5 +1,4 @@
 body {
-box-sizing: border-box;
 background: #DB99A5;
 }
 
@@ -33,6 +32,7 @@ main{
     text-align: center;
     font-size: 25px;
     font-weight: bold;
+    text-decoration: underline;
 }
 
 ul{
@@ -46,17 +46,30 @@ ul{
     font-weight: bold;
     padding: 10px;
     display: inline-block;
-    font-size: 20px;
+    font-size: 25px;
+    box-sizing: border-box;
 }
 
 .apresentacao {
     font-size: 25px;  
     margin: 10px 0;
 }
+
+footer a {
+    color: #DB99A5;
+    text-decoration: none;
+}
+
+.contato:hover {
+    font-size: 30px;
+    transition: 1s;
+}
+
 footer {
     padding: 30px;
     text-align: center;
     color: #DB99A5;
     background: #000000;
+   
     
 }
