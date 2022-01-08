@@ -3,13 +3,20 @@ background: #DB99A5;
 }
 
 header {
+    width: 100%;
     padding: 30px;
     text-align: center;
     background: #e1dbd8;
 }
 
+.caixa{
+ position: relative;
+}
+
 main{
+    width: 100%;
     padding: 30px;
+
 }
 .saudacao {
 
@@ -19,11 +26,13 @@ main{
 .saudacao-messagem{
     font-size: 30px;
     margin: 10px 0;
+    
+}
+.apresentacao{
+    padding-top: 30px;
+    text-align: center;
 }
 
-.saudacao-foto {
-    width: 50%;
-}
 .nome-salao {
     font-weight: bold;
 }
@@ -33,11 +42,12 @@ main{
     font-size: 25px;
     font-weight: bold;
     text-decoration: underline;
+    padding: 10px;
 }
 
-ul{
-    width: 100%;
-    border: #e1dbd8 solid 10px;
+ul{ 
+    left: 180px;
+    padding: 10px;
 }
 
 .servicos-itens{
@@ -48,6 +58,7 @@ ul{
     display: inline-block;
     font-size: 25px;
     box-sizing: border-box;
+    border: #000000 solid 5px;
 }
 
 .apresentacao {
@@ -66,6 +77,7 @@ footer a {
 }
 
 footer {
+    width: 100%;
     padding: 30px;
     text-align: center;
     color: #DB99A5;
