@@ -66,6 +66,24 @@ ul{
     margin: 10px 0;
 }
 
+table { 
+    font-size: 25px;
+    position: relative;
+    margin: 30px auto;
+    border: #000000 solid 6px;
+}
+
+table th{
+    background: #CCCCCC;
+    border: #000000 solid 1px;
+}
+
+table td{
+    background: #FFFFFF;
+    padding: 10px;
+    border: #000000 solid 1px;
+}
+
 footer a {
     color: #DB99A5;
     text-decoration: none;
