@@ -1,0 +1,24 @@
+body {
+
+}
+
+.cabecalho {
+    padding: 30px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+main{
+    padding: 30px;
+}
+
+.saudacao {
+    font-size: 30px;
+    margin: 10px 0;
+    text-align: center;
+}
+
+.apresentacao {
+    font-size: 25px;  
+    margin: 10px 0;
+}
