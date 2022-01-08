@@ -1,5 +1,6 @@
 body {
 box-sizing: border-box;
+background: #DB99A5;
 }
 
 header {
@@ -13,7 +14,7 @@ main{
 }
 .saudacao {
 
-    background: #E7E1D1;
+    /*background: #E7E1D1;*/
     text-align: center;
 }
 .saudacao-messagem{
@@ -36,7 +37,7 @@ main{
 
 ul{
     width: 100%;
-    
+    border: #e1dbd8 solid 10px;
 }
 
 .servicos-itens{
@@ -53,5 +54,9 @@ ul{
     margin: 10px 0;
 }
 footer {
+    padding: 30px;
     text-align: center;
+    color: #DB99A5;
+    background: #000000;
+    
 }
