@@ -2,16 +2,17 @@ body {
 box-sizing: border-box;
 }
 
-.cabecalho {
+header {
     padding: 30px;
-    font-size: 25px;
-    font-weight: bold;
+    text-align: center;
+    background: #e1dbd8;
 }
 
 main{
     padding: 30px;
 }
 .saudacao {
+
     background: #E7E1D1;
     text-align: center;
 }
@@ -33,7 +34,13 @@ main{
     font-weight: bold;
 }
 
+ul{
+    width: 100%;
+    
+}
+
 .servicos-itens{
+    width: 30%;
     text-align: center;
     font-weight: bold;
     padding: 10px;
@@ -44,4 +51,7 @@ main{
 .apresentacao {
     font-size: 25px;  
     margin: 10px 0;
+}
+footer {
+    text-align: center;
 }
