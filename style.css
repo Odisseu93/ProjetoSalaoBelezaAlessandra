@@ -11,11 +11,17 @@ body {
 main{
     padding: 30px;
 }
-
 .saudacao {
+    background: ;
+    text-align: center;
+}
+.saudacao-messagem{
     font-size: 30px;
     margin: 10px 0;
-    text-align: center;
+}
+
+.saudacao-foto {
+    width: 50%;
 }
 
 .apresentacao {
