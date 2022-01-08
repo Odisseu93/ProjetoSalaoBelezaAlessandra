@@ -50,6 +50,12 @@ ul{
     padding: 10px;
 }
 
+.servicos-itens:hover{
+    transform: scale(1.5);
+    background: #DB99A5;
+
+}
+
 .servicos-itens{
     width: 30%;
     text-align: center;
