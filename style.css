@@ -68,6 +68,7 @@ ul{
     font-size: 25px;
     box-sizing: border-box;
     border: #000000 solid 5px;
+    border-radius: 10px;
 }
 
 .apresentacao {
