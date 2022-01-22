@@ -25,11 +25,18 @@ main{
     text-align: center;
 }
 
-.messagem{
-    font-size: 30px;
-    margin: 10px 0;
+.saudacao-foto {
+    /* border: #000000 solid 5px; */
+    background: radial-gradient( #FFFFFF , #DB99A5 70%);
+}
+
+.menssagem{
+   font-size: 30px;
+   margin: 10px 0;
+   text-align: center;
     
 }
+
 .apresentacao{
     padding-top: 30px;
     text-align: center;
@@ -55,11 +62,14 @@ ul{
 
 .servicos-itens:hover{
     transform: scale(1.2);
-    background: #DB99A5;
+    background: #FFFFFF;
 
 }
 
 .servicos-itens{
+    width: 940px;
+    margin: 10px 10px;
+    background: linear-gradient(360deg, #FFFFFF 80%,#DB99A5);
     width: 30%;
     text-align: center;
     font-weight: bold;
@@ -109,14 +119,18 @@ footer {
     padding: 30px;
     text-align: center;
     color: #DB99A5;
-    background: #000000;
+    background: linear-gradient(#1C1C1C 60%,black);
    
     
 }
-.mapa {
-    margin: 0 2em 0;
+
+.mapa-conteudo{
+    width: 940px;
+    margin: 0 auto;
 }
 
-.mapa p{
-    text-align: center;
+.mapa {
+  text-align: center;
 }
+
+
