@@ -61,7 +61,7 @@ ul{
 }
 
 .servicos-itens:hover{
-    transform: scale(1.2);
+    transform: scale(1.1);
     background: #FFFFFF;
 
 }
@@ -93,6 +93,11 @@ table {
     border: #000000 solid 6px;
 }
 
+.table-conteudo{
+    width: 940px;
+    margin: 0 auto
+}
+
 table th{
     background: #CCCCCC;
     border: #000000 solid 1px;
@@ -119,7 +124,7 @@ footer {
     padding: 30px;
     text-align: center;
     color: #DB99A5;
-    background: linear-gradient(#1C1C1C 60%,black);
+    background: radial-gradient(#1C1C1C 60%,black);
    
     
 }
@@ -131,6 +136,7 @@ footer {
 
 .mapa {
   text-align: center;
+
 }
 
 
