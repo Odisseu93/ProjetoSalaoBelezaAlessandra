@@ -23,6 +23,7 @@ main{
 
     /*background: #E7E1D1;*/
     text-align: center;
+    text-shadow: 0 0 4px white;
 }
 
 .saudacao-foto {
@@ -30,16 +31,22 @@ main{
     background: radial-gradient( #FFFFFF , #DB99A5 70%);
 }
 
+.saudacao-foto:hover {
+    opacity: 0.75;
+}
+
 .menssagem{
    font-size: 30px;
    margin: 10px 0;
    text-align: center;
+
     
 }
 
 .apresentacao{
     padding-top: 30px;
     text-align: center;
+    text-shadow: 0 0 4px white;
     
 }
 
@@ -79,6 +86,7 @@ ul{
     box-sizing: border-box;
     border: #000000 solid 5px;
     border-radius: 10px;
+    box-shadow: 10px 10px 5px black;
 }
 
 .apresentacao {
@@ -91,6 +99,11 @@ table {
     position: relative;
     margin: 30px auto;
     border: #000000 solid 6px;
+}
+
+table:hover {
+    width: 100%;
+    text-align: center;
 }
 
 .table-conteudo{
@@ -125,6 +138,7 @@ footer {
     text-align: center;
     color: #DB99A5;
     background: radial-gradient(#1C1C1C 60%,black);
+    text-shadow: 0 0 2px white;
    
     
 }
