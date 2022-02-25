@@ -6,7 +6,7 @@ font-family: 'Luxurious Roman', cursive;
 header {
     width: 100%;
     padding: 30px;
-    text-align: center;
+    text-align: start;
     background: #e1dbd8;
 }
 
@@ -62,7 +62,7 @@ main{
     padding: 10px;
 }
 
-ul{ 
+.lista-servicos{ 
     left: 180px;
     padding: 10px;
 }
